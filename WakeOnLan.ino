@@ -39,7 +39,6 @@ void handleNewMessages(int numNewMessages)
 		String text = bot.messages[i].text;
 
 
-		// TODO check for user_id instead of username
 		if (!(bot.messages[i].from_id == USER_ID))
 		{
 			// TODO Log random people to file 
