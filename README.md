@@ -4,7 +4,7 @@ Controls the power button for a laptop
 ## Concept
 I wanted to add WakeOnLan to my laptop because it didn't support it.
 
-This project consists of a Telegrambot running on a esp8266,
+This project consists of a [Telegram bot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot) running on a esp8266,
 That controls a relay wired to the power button.
 
 
