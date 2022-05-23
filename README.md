@@ -6,7 +6,7 @@ Controls a computers power button.
 
 A cursed hardware implementation for WakeOnLan using a esp8266 running a simple [Telegram bot](https://core.telegram.org/bots) controlling a relay.
 
-<br />
+
 ## Hardware used
 
 - [5v Relay board](https://nl.aliexpress.com/item/1005002617199944.html?spm=a2g0o.search0304.0.0.27c02a257Dg3bo)
