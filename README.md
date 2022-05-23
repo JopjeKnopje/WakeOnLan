@@ -15,7 +15,7 @@ A cursed hardware implementation for WakeOnLan using a esp8266 running a simple 
 
 ## Installation
 
-Build the [schematic](tmp)
+Build the [schematic](tmp)<br />
 Install the  [esp8266 package](https://arduino-esp8266.readthedocs.io/en/latest/installing.html) and the [UniversalTelegramBot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot#installing) library
 
 Compile...
