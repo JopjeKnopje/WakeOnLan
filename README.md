@@ -1,15 +1,30 @@
 # WakeOnLan
-Controls the power button for a laptop
 
-## Concept
-I wanted to add WakeOnLan to my laptop because it didn't support it.
+Controls a computers power button .
 
-This project consists of a [Telegram bot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot) running on a esp8266,
-That controls a relay wired to the power button.
+## Introduction
 
+A cursed hardware implementation for WakeOnLan using a esp8266 running a simple [Telegram bot](https://core.telegram.org/bots) controlling a relay.
 
 
-### Features
+## Hardware used
+
+- [5v Relay board](https://nl.aliexpress.com/item/1005002617199944.html?spm=a2g0o.search0304.0.0.27c02a257Dg3bo)
+- [nodemcu v3](https://nl.aliexpress.com/item/32520574539.html?spm=a2g0o.productlist.0.0.6ee422daVuEDwZ)
+- a few wires
+
+## Installation
+
+Build the [schematic](tmp)
+Install the  [esp8266 package](https://arduino-esp8266.readthedocs.io/en/latest/installing.html) and the [UniversalTelegramBot](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot#installing) library
+
+Compile...
+Aaaaaand upload.
+
+
+
+
+## Features
 - Only responds to a specified client_id so no one else can turn on your pc
 
 
@@ -18,4 +33,7 @@ That controls a relay wired to the power button.
 - [ ] Use something else than Telegram lol
 - [ ] Add timer class instead of loose variables
 - [ ] Log declined commands to file
+- [ ] Add schematic 
+- [ ] Add photos
+
 
