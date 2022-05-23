@@ -21,13 +21,9 @@ Install the  [esp8266 package](https://arduino-esp8266.readthedocs.io/en/latest/
 Compile... <br />
 Aaaaaand upload.
 
-<br />
-
-
 ## Features
 - Only responds to a specified client_id so no one else can turn on your pc
 
-<br />
 
 ### Todo
 - [ ] Use something else than Telegram lol
