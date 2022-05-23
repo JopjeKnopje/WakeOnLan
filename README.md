@@ -34,6 +34,6 @@ Aaaaaand upload.
 - [ ] Add timer class instead of loose variables.
 - [ ] Log declined commands to file.
 - [ ] Add schematic.
-- [ ] Add photos.
+- [x] Add photos.
 
 
