@@ -15,10 +15,12 @@
 #define USER_ID ""
 #endif
 
+
+#define RELAY_PIN 5
+
 const unsigned long BOT_SCAN_TIME = 1000; // mean time between scan messages
 
-
-PowerButton laptopPowerButton(5);
+PowerButton laptopPowerButton(RELAY_PIN);
 X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
