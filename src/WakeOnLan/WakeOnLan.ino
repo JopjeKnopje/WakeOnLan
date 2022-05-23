@@ -8,12 +8,12 @@
 
 // TODO define the credentials here if the header is not included
 
-// #ifndef CREDENTIALS_H
-// #define WIFI_SSID ""
-// #define WIFI_PASSWORD ""
-// #define BOT_TOKEN ""
-// #define USER_ID ""
-// #endif
+#ifndef CREDENTIALS_H
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define BOT_TOKEN ""
+#define USER_ID ""
+#endif
 
 const unsigned long BOT_SCAN_TIME = 1000; // mean time between scan messages
 

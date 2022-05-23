@@ -29,11 +29,19 @@ Aaaaaand upload.
 - Only responds to a specified client_id so no one else can turn on your pc.
 
 
+## Pictures
+![alt text](https://raw.githubusercontent.com/JopjeKnopje/WakeOnLan/main/pics/1.png?raw=true)
+
+![alt text](https://raw.githubusercontent.com/JopjeKnopje/WakeOnLan/main/pics/2.png?raw=true)
+
+
+
+
 ### Todo
 - [ ] Use something other than Telegram lol.
 - [ ] Add timer class instead of loose variables.
 - [ ] Log declined commands to file.
-- [ ] Add schematic.
-- [x] Add photos.
+- [ ] Steal laptops USB power so we don't have to use a external adapter
+- [ ] poweroff time longer?
 
 
